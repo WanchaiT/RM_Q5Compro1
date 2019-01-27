@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class matrixSwitch {
+class MatrixSwitch {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
@@ -15,6 +15,7 @@ class matrixSwitch {
         int command = scan.nextInt();
         int tempData ;
 
+        long start = System.currentTimeMillis();
         if (command == 1) {
             for (int i = 0;i < n ;i++ ) {
                 for (int j = 0;j < n/2 ;j++ ) {
@@ -39,5 +40,6 @@ class matrixSwitch {
             }
             System.out.println();
         }
+
     }
 }

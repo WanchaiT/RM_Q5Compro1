@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class arrayUpdown {
+class ArrayUpdown {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
